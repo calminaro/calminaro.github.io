@@ -1,0 +1,60 @@
+body {
+  background-color: WhiteSmoke;
+    font-family: "Helvetica", sans-serif;
+    color: black;
+}
+ h1 {
+    color: Black;
+    font-family: "Arial", serif;
+  }
+
+
+nav ul {
+    background-color: black;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 10px;
+	display: flex;
+    justify-content: space-around;
+  }
+
+    nav ul li {
+        list-style-type: none;
+        margin-right: 10px;
+        margin-left: 10px;
+        color: white;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+  }
+
+img {
+  border-radius: 20px;
+}
+
+.tinyPicture {
+    height: 60px;
+    border-radius: 10px;
+}
+.card {
+	margin-left: auto;
+	margin-right: auto;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.card:hover {
+    border-color: #1E90FF;
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
